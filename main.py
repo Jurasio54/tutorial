@@ -1,4 +1,4 @@
-from pyobigram.utils import sizeof_fmt,get_file_size,createID,nice_time
+Jfrom pyobigram.utils import sizeof_fmt,get_file_size,createID,nice_time
 from pyobigram.client import ObigramClient,inlineQueryResultArticle
 from MoodleClient import MoodleClient
 
@@ -558,7 +558,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5313186270:AAHW0l0CBPsuW9aS1_ajPbYcGQwtN1kbJ2g'
+    bot_token = '5305821841:AAFIqmB3wXyyIqoVjcCTuDph3Y7bnHf24kw'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
